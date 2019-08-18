@@ -30,6 +30,13 @@ class HWTableViewController: UITableViewController,  DetailTableViewControllerDe
     }
     
     func initHomeworks(){
+        records.append(Record(title:"#85 下拉放大圖片(stretchable)的 scroll view"))
+        records.append(Record(title:"#84 製作文青的 IG 透卡 App"))
+        records.append(Record(title:"#83 製作 IG 滑動後 profile tab 卡在上方的效果"))
+        records.append(Record(title:"#82 利用 CABasicAnimation & CAShapeLayer 繪製線條動畫"))
+        records.append(Record(title:"#81 製作 Google 搜尋 App — 搭配 Google Custom Search JSON API"))
+        records.append(Record(title:"#80 創作有梗的 iOS App 遊戲"))
+        records.append(Record(title:"#79 iOS App 網路資料下載時該注意的 13 點功能細節"))
         records.append(Record(title:"#78 利用delegate在controller間溝通＆傳資料的步驟說明"))
         records.append(Record(title:"#77 搭配UIImgagePickerController選照片"))
         records.append(Record(title:"#76 scroll view delegate-分頁和圖片的縮放"))
